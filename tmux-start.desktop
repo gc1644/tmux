@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=tmux start
+Comment=ready to go terminal with tmux
+Exec=/bin/tmux-start.sh
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;System;
+StartupNotify=true
