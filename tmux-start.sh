@@ -12,6 +12,9 @@ tmux send-keys -t $SESSION:2 "nvim" C-m
 tmux new-window -t $SESSION:3 -n "remote"
 tmux send-keys -t $SESSION:3 "ssh root@"
 
+tmux new-window -t $SESSION:4 -n "music"
+tmux send-keys -t $SESSION:4 "ncmpcpp" C-m
+
 tmux select-window -t $SESSION:1
 
 tmux attach-session -t $SESSION
